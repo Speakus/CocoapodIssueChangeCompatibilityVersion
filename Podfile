@@ -15,4 +15,5 @@ inhibit_all_warnings!
 
 target 'CocoapodIssueChangeCompatibilityVersion' do
   crashPods
+  pod 'PKHUD'
 end

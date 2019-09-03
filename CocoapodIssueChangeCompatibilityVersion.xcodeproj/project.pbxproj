@@ -100,6 +100,7 @@
 				EF9BB03B231EEF4E00EFE3BA /* Sources */,
 				EF9BB03C231EEF4E00EFE3BA /* Frameworks */,
 				EF9BB03D231EEF4E00EFE3BA /* Resources */,
+				22AEEEB39C0042DE9238FBDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +158,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		22AEEEB39C0042DE9238FBDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CocoapodIssueChangeCompatibilityVersion/Pods-CocoapodIssueChangeCompatibilityVersion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CocoapodIssueChangeCompatibilityVersion/Pods-CocoapodIssueChangeCompatibilityVersion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CocoapodIssueChangeCompatibilityVersion/Pods-CocoapodIssueChangeCompatibilityVersion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2F65908521BF906E1702AC6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
