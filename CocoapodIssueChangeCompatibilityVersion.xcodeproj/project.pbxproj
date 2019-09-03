@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,7 +46,6 @@
 				1BEBD93F71A287E36820A5B7 /* Pods-CocoapodIssueChangeCompatibilityVersion.debug.xcconfig */,
 				D60D31FEDA802BCDBDF28B17 /* Pods-CocoapodIssueChangeCompatibilityVersion.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -127,7 +126,7 @@
 				};
 			};
 			buildConfigurationList = EF9BB03A231EEF4E00EFE3BA /* Build configuration list for PBXProject "CocoapodIssueChangeCompatibilityVersion" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
