@@ -1,5 +1,5 @@
 PODS:
-  - Crashlytics (3.13.4):
+  - Crashlytics (3.14.0):
     - Fabric (~> 1.10.2)
   - Fabric (1.10.2)
   - PKHUD (5.3.0)
@@ -10,16 +10,16 @@ DEPENDENCIES:
   - PKHUD
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Crashlytics
     - Fabric
     - PKHUD
 
 SPEC CHECKSUMS:
-  Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
 
 PODFILE CHECKSUM: b5cd1d4a5853e6cdd610d58f06c37907d0fc1bfa
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.1
